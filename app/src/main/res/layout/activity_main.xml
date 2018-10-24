@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jegede.ba.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textPiew"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="NEXUS"
+            android:layout_marginLeft="40dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingTop="60dp"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="MOBILE"
+            android:paddingTop="80dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#000000"
+            android:text="Username"
+            android:textAllCaps="true"
+            android:textColorHighlight="@color/colorAcc"
+            android:textAlignment="center"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:text="Password"
+            android:textAllCaps="true"
+            android:textColorHighlight="@color/colorAcc"
+            android:textAlignment="center"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:onClick="login"
+            android:layout_marginTop="8dp"
+            />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:onClick="signUp"
+            android:layout_marginTop="8dp"
+           />
+
+
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:text="NEXUS MOBILE"
+    android:id="@+id/nexText"
+    android:layout_centerInParent="true"
+
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="GET HELP"
+        android:layout_toRightOf="@id/nexText"
+        android:paddingLeft="4sp"
+        />
+
+</RelativeLayout>

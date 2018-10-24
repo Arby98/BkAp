@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jegede.ba.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO NEXUS MOBILE THE MOBILE APP FOR NEXUS
+BANK .THE BANK OF FIRST CHOICE. HOW CAN WE BE OF ASSISTANCE TO YOU.
+" android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="about us"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact us"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="our services"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG-out"
+        android:textSize="15dp"
+        android:onClick="LogOut"
+        android:textColor="@color/colorPrimaryDark"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+android:layout_alignParentBottom="true"
+    android:text="NEXUSmobile"
+        android:layout_centerInParent="true"
+        android:id="@+id/txText"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="15sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/txText"
+        android:paddingLeft="4sp"
+        android:text="GET HELP"/>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
