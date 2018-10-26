@@ -42,14 +42,16 @@ BANK .THE BANK OF FIRST CHOICE. HOW CAN WE BE OF ASSISTANCE TO YOU.
         android:textSize="15dp"
         android:textColor="@color/colorPrimaryDark"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="LOG-out"
-        android:textSize="15dp"
-        android:onClick="LogOut"
-        android:textColor="@color/colorPrimaryDark"/>
-
+        <Button
+            android:id="@+id/signU"
+            android:layout_above="@id/txText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="_LogOut"
+            />
 
     </LinearLayout>
 
