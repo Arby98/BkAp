@@ -25,7 +25,8 @@
         android:layout_height="wrap_content"
         android:text="about us"
         android:textSize="15sp"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="_AbtUs"/>
 
 
     <Button
@@ -33,21 +34,23 @@
         android:layout_height="wrap_content"
         android:text="contact us"
         android:textSize="15sp"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="_contUs"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="our services"
         android:textSize="15dp"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textColor="@color/colorPrimaryDark"
+        android:onClick="_OurS"/>
 
         <Button
             android:id="@+id/signU"
             android:layout_above="@id/txText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register"
+            android:text="LOG OUT"
             android:textSize="15dp"
             android:textColor="@color/colorPrimaryDark"
             android:onClick="_LogOut"

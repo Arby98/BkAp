@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jegede.ba.BA6Activity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="our services"
+        android:textSize="26sp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:id="@+id/ourS"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WE OFFER QUALITY BANKING SERVICES TO OUR CUSTOMERS .
+WE PROVIDE QUALITY AND TOP NOTCH BANKING SREVICES ANYWHERE IN THE COUNTRY.
+WE PROVIDE ONLINE PAYMENT OF BILLS .
+ECOMMERCE.
+WE OFFER LOCAL PUCHASE ORDER(LPO) TO CUSTOMERS
+WE PROVIDE LOAN SERVICES TO OUR CUSTOMERS.
+FOREIGN EXCHANGHE TRANSACTION (BUYING AND SELLING OF FOREIGN EXCHANGE).
+So why dont you try us for a change. NEXUS BANK YOUR BANK OF FIRST CHOICE.(BUYING AND SELLING OF FOREIGN EXCHANGE)
+
+"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:id="@+id/atu"
+        android:layout_below="@id/ourS"/>
+
+
+</RelativeLayout>
+
+</ScrollView>

@@ -23,4 +23,21 @@ public class BA2Activity extends AppCompatActivity {
         Intent intent = new Intent(BA2Activity.this, MainActivity.class);
         startActivity(intent);
     }
+
+    public void _AbtUs (View view) {
+        Intent intent = new Intent(BA2Activity.this, BA4Activity.class);
+        startActivity(intent);
+    }
+
+    public void _OurS (View view) {
+        Intent intent = new Intent(BA2Activity.this, BA6Activity.class);
+        startActivity(intent);
+    }
+
+    public void _contUs (View view) {
+        Intent intent = new Intent( BA2Activity.this, BA6Activity.class);
+        startActivity(intent);
+    }
+
+
 }

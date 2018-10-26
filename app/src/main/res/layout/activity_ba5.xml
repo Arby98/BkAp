@@ -4,32 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jegede.ba.BA4Activity">
-
+    tools:context="com.example.jegede.ba.BA5Activity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ABOUT US"
+        android:text="CONTACT US"
         android:textSize="26sp"
+        android:textAllCaps="true"
         android:textAlignment="center"
-        android:id="@+id/abtus"/>
+        android:id="@+id/cont"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nexus mobile is the official Mobile app of
-        the Nexus Bank. Our aim here is to provide a  comfortable
-        and suitable way of banking for our customers . Whether
-        it is from the comfort of their homes or even when walking
-         on the street. The Nexus Mobile allows you to perform various
-         banking transactions from anywhere in the country.At any
-         time ,anyday and on any occassion . So why dont you try us for a change.
-          NEXUS BANK YOUR BANK OF FIRST CHOICE.
-" android:layout_below="@id/abtus"
-        android:id="@+id/atus"
-        android:textSize="16sp"
-        android:textAllCaps="true"/>
+        android:text="WELCOME TO THE OFFICIAL CONTACT US PAGE OF THE NEXUS MOBILE"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:id="@+id/cont_u"
+        android:layout_below="@id/cont"
+        />
 
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" YOU CAN CONTACT US ON THE FOLLOWING NUMBERS
+    +2340000000000 OR +2341111111111
+    OR EMAIL US AT theNexusgroup.org
+    Find us on facebook, linked in, instagram, twitter  @theNexusgroup
+
+    NEXUS BANK YOUR BANK OF FIRST CHOICE. SPONSORED BY NEXUS BANK YOUR BANK OF FIRST CHOICE.
+@2018 NEXUS MOBILE ALL RIGHTS reserved
+"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:id="@+id/cont_su"
+        android:layout_below="@id/cont_u"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,6 +64,7 @@
         android:layout_toRightOf="@id/txText"
         android:paddingLeft="4sp"
         android:text="GET HELP"/>
+
 
 
 </RelativeLayout>
